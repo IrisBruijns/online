@@ -46,7 +46,7 @@
       "settings": {
         "main": true,
         "title": "Home",
-        "meta_descr": "",
+        "meta_descr": "Home, Illusration, Art, School, Art school, Work, Art work, Design, Drawings, Graphic design",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -396,7 +396,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/4.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -430,7 +430,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/afb1-7-van-1.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -1185,7 +1185,7 @@
     "page1.html": {
       "settings": {
         "title": "Page 1",
-        "meta_descr": "",
+        "meta_descr": "School, work, schoolwork, graphic design, photography, design, book, sketch, video",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -2060,7 +2060,7 @@
     "page2.html": {
       "settings": {
         "title": "Page 2",
-        "meta_descr": "",
+        "meta_descr": "Illustration, Design, Drawing, Art, Deer, Bear, Tapir, Cat, Work",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -2609,7 +2609,7 @@
     "page3.html": {
       "settings": {
         "title": "Page 3",
-        "meta_descr": "",
+        "meta_descr": "Contact",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
