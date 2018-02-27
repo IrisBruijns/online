@@ -28,7 +28,7 @@ body {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
@@ -1374,14 +1374,14 @@ body {
   display: none;
 }
 .cid-qK72T07FXB {
-  background-color: #ffffff;
+  background-color: #a5d5d6;
 }
 .cid-qK72T07FXB P {
   color: #a5d5d6;
   text-align: left;
 }
 .cid-qK72T07FXB B {
-  color: #000000;
+  color: #ffffff;
 }
 .cid-qxyga8EL0E {
   padding-top: 45px;
@@ -1395,14 +1395,14 @@ body {
 .cid-qKcKp5YvI7 {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 .cid-qKcKp5YvI7 .mbr-text,
 .cid-qKcKp5YvI7 blockquote {
   color: #767676;
 }
 .cid-qKcKp5YvI7 .mbr-text {
-  color: #c1c1c1;
+  color: #ffffff;
   text-align: center;
 }
 .cid-qKcCZYzbEt {
@@ -1691,14 +1691,14 @@ body {
 .cid-qKcLiIbX52 {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 .cid-qKcLiIbX52 .mbr-text,
 .cid-qKcLiIbX52 blockquote {
   color: #767676;
 }
 .cid-qKcLiIbX52 .mbr-text {
-  color: #c1c1c1;
+  color: #ffffff;
   text-align: center;
 }
 .cid-qxyhSsGf5N {
@@ -1725,14 +1725,14 @@ body {
 .cid-qKgXW6vEEI {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 .cid-qKgXW6vEEI .mbr-text,
 .cid-qKgXW6vEEI blockquote {
   color: #767676;
 }
 .cid-qKgXW6vEEI .mbr-text {
-  color: #c1c1c1;
+  color: #ffffff;
   text-align: center;
 }
 .cid-qKgXZUlv9Y {
@@ -2018,38 +2018,45 @@ body {
 .cid-qKcUvFN0AX H2 {
   color: #232323;
 }
-.cid-qKcUDHgtpg {
+.cid-qKTh355hPK {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-qKcUDHgtpg .mbr-slider .carousel-control {
+.cid-qKTh355hPK .mbr-slider .carousel-control {
   background: #1b1b1b;
 }
-.cid-qKcUDHgtpg .mbr-slider .carousel-control-prev {
+.cid-qKTh355hPK .mbr-slider .carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-qKcUDHgtpg .mbr-slider .carousel-control-next {
+.cid-qKTh355hPK .mbr-slider .carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
 }
-.cid-qKcUDHgtpg .mbr-slider .modal-body .close {
+.cid-qKTh355hPK .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-qKcUDHgtpg .mbr-gallery-item > div::before {
+.cid-qKTh355hPK .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
+  background: #554346;
   background: linear-gradient(to left, #554346, #45505b) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
 }
-.cid-qKcUDHgtpg .mbr-gallery-title {
+.cid-qKTh355hPK .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-qKTh355hPK .mbr-gallery-item > div:hover:before {
+  opacity: 0 !important;
+}
+.cid-qKTh355hPK .mbr-gallery-title {
   font-size: .9em;
   position: absolute;
   display: block;
@@ -2057,7 +2064,19 @@ body {
   bottom: 0;
   padding: 1rem;
   color: #fff;
-  background: linear-gradient(to left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
+  z-index: 2;
+}
+.cid-qKTh355hPK .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
@@ -2560,14 +2579,14 @@ body {
 .cid-qKcNJvEOHY {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 .cid-qKcNJvEOHY .mbr-text,
 .cid-qKcNJvEOHY blockquote {
   color: #767676;
 }
 .cid-qKcNJvEOHY .mbr-text {
-  color: #c1c1c1;
+  color: #ffffff;
   text-align: center;
 }
 .cid-qKcNXJBzrU {
@@ -2877,14 +2896,14 @@ body {
 .cid-qKgYvGiFB0 {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 .cid-qKgYvGiFB0 .mbr-text,
 .cid-qKgYvGiFB0 blockquote {
   color: #767676;
 }
 .cid-qKgYvGiFB0 .mbr-text {
-  color: #c1c1c1;
+  color: #ffffff;
   text-align: center;
 }
 .cid-qKgYxGreJD {
@@ -4785,38 +4804,45 @@ body {
 .cid-qKcVGFCF0A H2 {
   color: #232323;
 }
-.cid-qKcVHu89LC {
+.cid-qKTjciaL4z {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-qKcVHu89LC .mbr-slider .carousel-control {
+.cid-qKTjciaL4z .mbr-slider .carousel-control {
   background: #1b1b1b;
 }
-.cid-qKcVHu89LC .mbr-slider .carousel-control-prev {
+.cid-qKTjciaL4z .mbr-slider .carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-qKcVHu89LC .mbr-slider .carousel-control-next {
+.cid-qKTjciaL4z .mbr-slider .carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
 }
-.cid-qKcVHu89LC .mbr-slider .modal-body .close {
+.cid-qKTjciaL4z .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-qKcVHu89LC .mbr-gallery-item > div::before {
+.cid-qKTjciaL4z .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
+  background: #554346;
   background: linear-gradient(to left, #554346, #45505b) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
 }
-.cid-qKcVHu89LC .mbr-gallery-title {
+.cid-qKTjciaL4z .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-qKTjciaL4z .mbr-gallery-item > div:hover:before {
+  opacity: 0 !important;
+}
+.cid-qKTjciaL4z .mbr-gallery-title {
   font-size: .9em;
   position: absolute;
   display: block;
@@ -4824,7 +4850,19 @@ body {
   bottom: 0;
   padding: 1rem;
   color: #fff;
-  background: linear-gradient(to left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
+  z-index: 2;
+}
+.cid-qKTjciaL4z .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
